@@ -5,7 +5,8 @@ const path = require("path");
 const { nanoid } = require("nanoid");
 
 // CONFIG: Change this to your actual base URL (not localhost in production)
-const BASE_URL = "https://sho.rt"; // Replace with your real domain
+const BASE_URL ="https://shortenurl-64k8.onrender.com";
+// Replace with your real domain
 
 // Path to DB file
 const dbFile = path.join(__dirname, "../data/urls.json");
